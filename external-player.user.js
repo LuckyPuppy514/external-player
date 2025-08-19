@@ -18,7 +18,7 @@
 // @grant                   GM_getValue
 // @grant                   GM.xmlHttpRequest
 // @run-at                  document-start
-// @require                 https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/pako/2.0.4/pako.min.js
+// @require                 https://cdnjs.cloudflare.com/ajax/libs/pako/2.0.4/pako.min.js
 // ==/UserScript==
 
 'use strict';
