@@ -241,7 +241,7 @@ class BaseParser {
     async parseAudio() {}
     async parseSubtitle() {}
     async parseTitle() {
-        currentMedia.title = document.title;
+        currentMedia.title = document.title.replaceAll('"','\\"');
     }
     async parseOrigin() {
         currentMedia.origin = location.origin || location.href;
